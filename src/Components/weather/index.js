@@ -39,7 +39,8 @@ class WeatherApp extends Component {
       loading,
       currentCity,
       description,
-      weatherIsVisible
+      weatherIsVisible,
+      city
     } = this.state;
     return(
         <View>
